@@ -20,7 +20,7 @@
     padding: 10px 20px;
     text-decoration: none;
     color: #141414;
-    /*display: block;*/
+    display: block;
 }
 
 @media (max-width: 800px) {
