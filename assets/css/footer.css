@@ -30,9 +30,15 @@
     color: #fff;
     text-decoration: none;
     position: relative;
+}
+
+.footer-contato .github {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
     left: 50px;
 }
-.footer-contato a::before {
+.footer-contato .github::before {
     display: block;
     content: "";
     width: 36px;
@@ -41,7 +47,7 @@
     left: -50px;
 }
 
-.footer a::before {
+.footer .github::before {
     background: url(../img/github.svg) no-repeat center center;
 }
 
